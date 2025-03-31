@@ -1,38 +1,34 @@
-# Sistema de Gerenciamento de Contas Bancárias
+# Bank Account Management System
 
-## Descrição
+## Description
 
-Este projeto implementa um sistema de gerenciamento de contas bancárias para uma cooperativa de crédito. O sistema permite o cadastro de correntistas e a gestão de contas bancárias, incluindo operações de depósito, saque, aplicação de juros e rendimento. O sistema suporta dois tipos de contas: Conta Corrente e Conta Poupança.
+This project implements a bank account management system for a credit union. The system allows the registration of account holders and management of bank accounts, including deposit, withdrawal, interest application, and earnings. The system supports two types of accounts: Checking Account and Savings Account.
 
-## Funcionalidades
+## Features
 
-- **Cadastro de Correntistas**: Inclui CPF, nome, endereço e profissão.
-- **Criação de Contas**: Suporte para Conta Corrente e Conta Poupança.
-- **Operações Bancárias**:
-  - Depósito
-  - Saque
-  - Aplicação de rendimento (para Conta Poupança)
-  - Aplicação de juros (para Conta Corrente)
-- **Cálculo de Juros**:
-  - Juros aplicados ao saldo negativo (Conta Corrente)
-  - Rendimento aplicado ao saldo da Conta Poupança
+- **Account Holder Registration**: Includes CPF, name, address, and profession.
+- **Account Creation**: Support for Checking Account and Savings Account.
+- **Bank Operations**:
+  - Deposit
+  - Withdrawal
+  - Earnings application (for Savings Account)
+  - Interest application (for Checking Account)
+- **Interest Calculation**:
+  - Interest applied to negative balance (Checking Account)
+  - Earnings applied to the balance of the Savings Account
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Linguagem**: C#
+- **Language**: C#
 - **Framework**: .NET Core
-- **Banco de Dados**: Banco de Dados em Memória para desenvolvimento e testes
+- **Database**: In-memory Database for development and testing
 - **ORM**: Entity Framework
-- **Bibliotecas**: FluentValidation para validação
+- **Libraries**: FluentValidation for validation
 - **Extras**: Docker
 
-## Estrutura do Projeto
+## Project Structure
 
-- **Application**: Contém a lógica de aplicação e serviços.
-- **Domain**: Define as entidades e enums do domínio.
-- **Infrastructure**: Implementações de acesso a dados e repositórios.
-- **WebApi**: Implementação da API para interação com o sistema.
-
-
-
-
+- **Application**: Contains application logic and services.
+- **Domain**: Defines domain entities and enums.
+- **Infrastructure**: Data access and repository implementations.
+- **WebApi**: API implementation for system interaction.
